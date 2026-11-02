@@ -23,7 +23,7 @@ jobs:
           port: ${{ secrets.VPS_PORT }}
           script: |
             # 1. Masuk ke direktori project di VPS
-            cd ~/
+            cd ~/nataz-dev
 
             # 2. Tarik kode terbaru dari GitHub
             git pull origin master
