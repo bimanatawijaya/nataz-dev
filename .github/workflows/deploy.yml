@@ -26,7 +26,7 @@ jobs:
             cd ~/
 
             # 2. Tarik kode terbaru dari GitHub
-            git pull origin main
+            git pull origin master
 
             # 3. Build ulang dan jalankan container terbaru
             docker compose up -d --build
